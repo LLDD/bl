@@ -1,0 +1,26 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix blt: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://bnb.data.bl.uk/id/concept/lcsh/MiddleEarth%28Imaginaryplace%29Fiction> rdfs:label "Middle Earth (Imaginary place)--Fiction" ;
+                                                                               skos:inScheme <http://id.loc.gov/authorities/subjects> ;
+                                                                               owl:sameAs <http://id.loc.gov/authorities/subjects/sh2008107769> ;
+                                                                               rdf:type skos:Concept ,
+                                                                                        blt:TopicLCSH ;
+                                                                               foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/concept/lcsh/MiddleEarth(Imaginaryplace)Fiction.ttl> . 
+
+<http://bnb.data.bl.uk/id/concept/lcsh/Hobbits%28Fictitiouscharacters%29Fiction> rdfs:label "Hobbits (Fictitious characters)--Fiction" ;
+                                                                                 skos:inScheme <http://id.loc.gov/authorities/subjects> ;
+                                                                                 rdf:type skos:Concept ,
+                                                                                          blt:TopicLCSH ;
+                                                                                 foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/concept/lcsh/Hobbits(Fictitiouscharacters)Fiction.ttl> . 
+
+<http://bnb.data.bl.uk/id/concept/lcsh/BagginsFrodo%28Fictitiouscharacter%29Fiction> rdfs:label "Baggins, Frodo (Fictitious character)--Fiction" ;
+                                                                                     skos:inScheme <http://id.loc.gov/authorities/subjects> ;
+                                                                                     owl:sameAs <http://id.loc.gov/authorities/subjects/sh2009116579> ;
+                                                                                     rdf:type skos:Concept ,
+                                                                                              blt:TopicLCSH ;
+                                                                                     foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/concept/lcsh/BagginsFrodo(Fictitiouscharacter)Fiction.ttl> . 
