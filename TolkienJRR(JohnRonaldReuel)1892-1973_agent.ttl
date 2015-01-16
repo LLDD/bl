@@ -1,0 +1,54 @@
+@prefix blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+
+<http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973> foaf:name "J. R. R. Tolkien" ;
+                                                                           foaf:givenName "J. R. R." ;
+                                                                           rdfs:label "Tolkien, J. R. R. (John Ronald Reuel), 1892-1973" ;
+                                                                           foaf:familyName "Tolkien" ;
+ 									   rdf:type foaf:Agent ,
+                                                                                    foaf:Person ,
+                                                                                    dct:Agent ;
+                                                                           owl:sameAs <http://viaf.org/viaf/95218067> ;
+                                                                           bio:event <http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/birth> ,
+                                                                                     <http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/death> ;
+										# list of works created and contributed to shortened for readability      
+                                                                           blterms:hasCreated <http://bnb.data.bl.uk/id/resource/008051001> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/009379267> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/010022478> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/010022495> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/010022606> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/010103429> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/013603372> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/008050991> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/008380832> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/009380753> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/009702964> ,
+                                                                                              <http://bnb.data.bl.uk/id/resource/010022459> ;
+                                       					   blterms:hasContributedTo <http://bnb.data.bl.uk/id/resource/008713256> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/014588279> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/010022432> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/000076385> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/008051029> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/010022429> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/013258246> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/011183126> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/016121903> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/011177844> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/015825410> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/011996125> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/010022480> ,
+                                                                                                    <http://bnb.data.bl.uk/id/resource/010044685> ;
+                                                                           foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/person/TolkienJRR(JohnRonaldReuel)1892-1973.ttl> . 
+
+
+<http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/birth> bio:date "1892"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+                                                                                 rdfs:label "1892" ;
+                                                                                 rdf:type bio:Birth ;
+                                                                                 foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/person/TolkienJRR(JohnRonaldReuel)1892-1973/birth.ttl> . 
+
+<http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973/death> rdfs:label "1973" ;
+                                                                                 bio:date "1973"^^<http://www.w3.org/2001/XMLSchema#gYear> ;
+                                                                                 rdf:type bio:Death ;
+                                                                                 foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/person/TolkienJRR(JohnRonaldReuel)1892-1973/death.ttl> . 
