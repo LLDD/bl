@@ -1,0 +1,56 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+<http://bnb.data.bl.uk/id/person/LeeAlan> rdfs:label "Lee, Alan" ;
+                                          foaf:givenName "Alan" ;
+                                          foaf:familyName "Lee" ;
+                                          foaf:name "Alan Lee" ;
+					  rdf:type foaf:Agent ,
+                                                   foaf:Person ,
+                                                   dct:Agent ;
+                                          blterms:hasCreated <http://bnb.data.bl.uk/id/resource/013239778> ,
+                                                             <http://bnb.data.bl.uk/id/resource/008051015> ,
+                                                             <http://bnb.data.bl.uk/id/resource/008051048> ,
+                                                             <http://bnb.data.bl.uk/id/resource/009380751> ,
+                                                             <http://bnb.data.bl.uk/id/resource/010022544> ,
+                                                             <http://bnb.data.bl.uk/id/resource/008051037> ; 
+                                          blterms:hasContributedTo <http://bnb.data.bl.uk/id/resource/010963944> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/014469086> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/009702979> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/012020694> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/013704147> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/015809665> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/007399202> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/010077905> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008051016> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008051050> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/010664481> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008429571> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/014469083> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008141467> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/009379266> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/013730118> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008050995> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/014469084> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/007362923> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008051020> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/015583867> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/007362864> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/016454434> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/006722151> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/010078833> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/006716289> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008983718> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008051026> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/007399232> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/008414798> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/013612541> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/013612546> ,
+                                                                   <http://bnb.data.bl.uk/id/resource/014469082> ;
+                                          owl:sameAs <http://viaf.org/viaf/112458453> ;
+                                          foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/person/LeeAlan.ttl> . 
+
