@@ -1,0 +1,31 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix isbd: <http://iflastandards.info/ns/isbd/elements/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix blterms: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://bnb.data.bl.uk/id/resource/014469082> isbd:P1053 "531 p."@en ;
+                                              isbd:P1008 "Illustrated ed." ;
+                                              rdfs:label "The fellowship of the ring / J. R. R. Tolkien" ;
+                                              blterms:bnb "GBA7A1263" ;
+                                              bibo:isbn10 "0007269706" ;
+                                              bibo:isbn13 "9780007269709" ;
+                                              dct:title "The fellowship of the ring" ;
+                                              rdf:type dct:BibliographicResource ,
+                                                       bibo:Book ;
+                                              dct:language <http://lexvo.org/id/iso639-3/eng> ;
+                                              dct:subject <http://bnb.data.bl.uk/id/concept/lcsh/BagginsFrodo%28Fictitiouscharacter%29Fiction> ,
+                                                          <http://bnb.data.bl.uk/id/concept/ddc/e22/823.912> ,
+                                                          <http://bnb.data.bl.uk/id/concept/lcsh/MiddleEarth%28Imaginaryplace%29Fiction> ,
+                                                          <http://bnb.data.bl.uk/id/concept/lcsh/Hobbits%28Fictitiouscharacters%29Fiction> ;
+                                              dct:creator <http://bnb.data.bl.uk/id/person/TolkienJRR%28JohnRonaldReuel%291892-1973> ;
+                                              dct:isPartOf <http://bnb.data.bl.uk/id/series/Lordoftherings> ;
+                                              dct:contributor <http://bnb.data.bl.uk/id/person/LeeAlan> ;
+                                              blterms:publication <http://bnb.data.bl.uk/id/resource/014469082/publicationevent/LondonHarperCollins2008> ;
+                                              rdfs:seeAlso <http://www4.wiwiss.fu-berlin.de/bookmashup/books/0007269706> ,
+                                                           <http://www4.wiwiss.fu-berlin.de/bookmashup/books/9780007269709> ;
+                                              owl:sameAs <http://bnb.data.bl.uk/id/resource/GBA7A1263> ;
+                                              foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/resource/014469082.ttl> . 
