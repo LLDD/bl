@@ -1,0 +1,14 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix blt: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<http://bnb.data.bl.uk/id/resource/014469082/publicationevent/LondonHarperCollins2008> rdfs:label "London : HarperCollins, 2008" ;
+                                                                                       event:time <http://reference.data.gov.uk/id/year/2008> ;
+                                                                                       event:place <http://sws.geonames.org/6269131/> ,
+                                                                                                  <http://bnb.data.bl.uk/id/place/London> ;
+                                                                                       rdf:type blt:PublicationEvent ;
+                                                                                       event:agent <http://bnb.data.bl.uk/id/agent/HarperCollins> ;
+                                                                                       foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/resource/014469082/publicationevent/LondonHarperCollins2008.ttl> . 
+
