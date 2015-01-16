@@ -1,0 +1,13 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix blt: <http://www.bl.uk/schemas/bibliographic/blterms#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://bnb.data.bl.uk/id/concept/ddc/e22/823.912> skos:notation "823.912"^^<http://dewey.info/schema-terms/Notation> ;
+                                                   rdf:type skos:Concept ,
+                                                            blt:TopicDDC ;
+                                                   skos:inScheme <http://dewey.info/scheme/e22/> ;
+                                                   skos:broader <http://dewey.info/class/823/e22/> ;
+                                                   foaf:isPrimaryTopicOf <http://bnb.data.bl.uk/doc/concept/ddc/e22/823.912.ttl> . 
+
